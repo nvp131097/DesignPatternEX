@@ -1,0 +1,66 @@
+
+Que1 :- What is Design Pattern?
+Ans1 :- In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design.
+		A design pattern isn't a finished design that can be transformed directly into code. 
+		It is a description or template for how to solve a problem that can be used in many different situations.
+		
+Que2 :- what are the main type of design patterns
+		design patterns which can be classified in three categories:
+		1. Creational 
+		2. Structural 
+		3. Behavioral patterns
+		
+1. Creational Design Pattern:-
+		These design patterns provide a way to create objects while hiding the creation logic, 
+		rather than instantiating objects directly using new operator. 
+		This gives program more flexibility in deciding which objects need to be created for a given use case.
+		1. Singleton
+		2. Factory
+		3. Abstract Factory
+		4. Builder
+		5. Prototype
+		
+2. Structural Design Pattern:-
+	These design patterns concern class and object composition. 
+	Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.
+	1. Adapter
+	2. Composite
+	3. Proxy
+	4. Fly Weight
+	5. Facade
+	6. Bridge
+	7. Decorate
+	
+3. Behavioral Design Pattern:-
+	These design patterns are specifically concerned with communication between objects.
+	1. Template Method
+	2. Mediator
+	3. Chain of Responsibility
+	4. Observer
+	5. Strategy
+	6. Command
+	7. State
+	8. Visitor
+	9. Iterator
+	10. Interpreter
+	11. Memento
+	
+Que3 :- Explain Factory and Abstract factory design pattern 
+
+Factory Design Pattern:-
+	In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+Abstract Factory Design Pattern :-
+	Abstract Factory patterns work around a super-factory which creates other factories. 
+	This factory is also called as factory of factories. 
+	In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. 
+	Each generated factory can give the objects as per the Factory pattern.
+	
+Que4 :- Explain the Singleton design patterns
+		This pattern involves a single class which is responsible to create an object while making sure that
+		only single object gets created. This class provides a way to access its only object which can be 
+		accessed directly without need to instantiate the object of the class.
+Implementation:-
+Declaring private instance
+Declaring all constructors of the class to be private, which prevents it from being instantiated by other objects
+Providing a static method that returns a reference to the instance
